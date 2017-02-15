@@ -1,0 +1,64 @@
+.head {
+  text-align: center;
+}
+
+.board {
+  width: 488px;
+  height: 488px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  overflow: auto;
+  text-align: center;
+  line-height: 120px;
+  font-size: 30px;
+}
+
+ul li {
+  display: table-cell;
+  clear: both;
+  width: 120px;
+  height: 120px;
+  border: 1px solid;
+  vertical-align: top;
+  color: white;
+  background-color: #114262;
+  cursor: pointer;
+}
+
+#empty {
+  background-color: transparent;
+}
+
+.win-message {
+  font-size: 50px;
+  text-align: center;
+  display: none;
+}
+
+.win-message p {
+  margin: 0;
+}
+
+.win-message p {
+  top: 16px;
+  position: relative;
+}
+
+.win-message .button {
+    background-color: #114262;
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
